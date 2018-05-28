@@ -289,9 +289,10 @@ footer div br {
     width: 35%;
     border-radius: 10% 10%;
     background-color: #ffffff;
-    height: 100px;
+    height: auto;
     padding: 2% 2%;
-    margin: 3% -2%;
+    margin: 3%-2%;
+    position: relative;
 }
 
 footer div img {
@@ -302,9 +303,9 @@ footer div img {
 }
 
 .triangle {
-    position: relative;
-    top: -38%;
-    right: -106.5%;
+    position: absolute;
+    top: 76%;
+    right: -11.5%;
     /* 圆角的位置需要细心调试哦 */
     width: 0;
     height: 0;
