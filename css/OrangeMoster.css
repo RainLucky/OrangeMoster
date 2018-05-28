@@ -304,12 +304,12 @@ footer div img {
 
 .triangle {
     position: absolute;
-    top: 76%;
-    right: -11.5%;
+    top: 70%;
+    right: -10.5%;
     /* 圆角的位置需要细心调试哦 */
     width: 0;
     height: 0;
     font-size: 0;
     border: solid 8px;
-    border-color: #e68a1c#e98c1c #ffffff #ffffff;
+    border-color: transparent transparent #ffffff #ffffff;
 }
