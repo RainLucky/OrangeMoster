@@ -1,0 +1,235 @@
+/*初始化*/
+html,
+body,
+div,
+ul,
+img,
+li,
+a,
+form {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*变量*/
+html {
+  font-size: 16px;
+}
+html body {
+  background: url("../assets/ogMs_bg.jpg") no-repeat center center fixed;
+  /*尾部*/
+}
+html body .container {
+  /*头部*/
+  /*轮播图*/
+  /*文章*/
+}
+html body .container header .nav-top .row {
+  margin: 0;
+}
+html body .container header .nav-top .row .pull-right .form-inline {
+  position: relative;
+  height: 6.9rem;
+}
+html body .container header .nav-top .row .pull-right .form-inline .form-group {
+  position: absolute;
+  border-radius: 2rem;
+  top: 1.3rem;
+  right: 0;
+  background-color: rgba(49, 32, 24, 0.6);
+}
+html body .container header .nav-top .row .pull-right .form-inline .form-group .glyphicon-search {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.3rem;
+  color: #fff;
+}
+html body .container header .nav-top .row .pull-right .form-inline .form-group .form-control {
+  height: 1.6rem;
+  border-radius: 2rem;
+  width: 12rem;
+  background-color: transparent;
+  padding-left: 1.2rem;
+  color: #fff;
+  line-height: 1.6rem;
+}
+html body .container header .nav-top .row .pull-right .form-inline .form-group .glyphicon-remove-sign {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.2rem;
+  color: #fff;
+}
+html body .container header .nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1rem;
+  height: 2rem;
+  line-height: 2rem;
+  z-index: 5;
+}
+html body .container header .nav .row {
+  margin: 0;
+}
+html body .container header .nav .row .col-md-2 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+html body .container header .nav .row .col-md-2 a {
+  color: #fff;
+  display: inline-block;
+  padding-left: 1.5rem;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+}
+html body .container header .nav .row .col-md-2 a:focus,
+html body .container header .nav .row .col-md-2 a:hover {
+  color: #000;
+}
+html body .container header .nav .row .col-md-2:focus,
+html body .container header .nav .row .col-md-2:hover {
+  background-color: #f7941e;
+}
+html body .container section#lunbo .carousel-inner .img-responsive {
+  width: 100%;
+}
+html body .container section#lunbo .carousel-control {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: -1.25rem;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.7;
+  text-align: center;
+  top: 50%;
+}
+html body .container section#lunbo .carousel-control .glyphicon.glyphicon-chevron-left {
+  margin-top: -1rem;
+  margin-left: -0.85rem;
+}
+html body .container section#lunbo .carousel-control .glyphicon.glyphicon-chevron-right {
+  margin-top: -1rem;
+  margin-right: -0.85rem;
+}
+html body .container section#article {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.718rem;
+  height: 27.5rem;
+}
+html body .container section#article .row {
+  height: 100%;
+}
+html body .container section#article .row .col-sm-12.col-md-4 {
+  padding: 0 0.3rem;
+  height: 100%;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail {
+  height: 100%;
+  border: none;
+  background-color: rgba(11, 9, 7, 0.4);
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail img {
+  margin: 1.2rem 1rem 1rem 0.26rem;
+  border: 0.3rem solid #fff;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption {
+  padding: 0.95rem;
+  color: #fff;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption h3 {
+  font-size: 1.2rem;
+  margin-top: 0rem;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption h4 {
+  font-size: 0.85rem;
+  margin-top: -0.6rem;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption h4.text-warning {
+  color: #f7941e;
+  margin-top: 0.1rem;
+  font-size: 1rem;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption .pa-btn {
+  width: auto;
+  height: 1.8rem;
+  display: inline-block;
+  line-height: 1.8rem;
+}
+html body .container section#article .row .col-sm-12.col-md-4 .thumbnail .caption .pa-btn a.btn.btn-primary {
+  border-radius: 2rem;
+  width: 9rem;
+  height: 100%;
+  padding-top: 0.2rem;
+}
+html body footer {
+  background-color: #f7941e;
+  height: 9rem;
+}
+html body footer .container {
+  height: 100%;
+}
+html body footer .container .row {
+  height: 100%;
+}
+html body footer .container .row .col-md-offset-1 {
+  height: 100%;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 {
+  height: 100%;
+  padding: 0;
+  color: #000;
+  font-size: 0.7rem;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 h5 {
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 p {
+  margin-bottom: 0.15rem;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 .dialog {
+  background-color: white;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  width: 100%;
+  height: 7rem;
+  margin-top: 0.7rem;
+  z-index: 12;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 .trangle {
+  border: 25px solid #fff;
+  width: 0;
+  height: 0;
+  border-top: 55px solid transparent;
+  border-left: 55px solid transparent;
+  border-bottom: 55px solid transparent;
+  transform: rotateZ(120deg);
+  position: absolute;
+  top: -0.8rem;
+  left: 6.9rem;
+  z-index: 1;
+}
+html body footer .container .row .col-md-offset-1 .col-md-2 img {
+  width: 90%;
+  margin-top: 0.8rem;
+}
+html body footer .container .row {
+  height: 0;
+}
+html body footer .container .row .col-md-offset-1 {
+  height: auto;
+}
+html body footer .container .row .col-md-offset-1 .col-md-6 {
+  margin-top: -2rem;
+  font-size: 0.6rem;
+  margin-bottom: 0;
+  color: #000;
+  padding: 0;
+}
+html body footer .container .row .col-md-offset-1 .col-md-6 p {
+  margin-bottom: 0.2rem;
+}
