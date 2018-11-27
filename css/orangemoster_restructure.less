@@ -6,6 +6,7 @@ html,body,div,ul,img,li,a,form{
     text-decoration: none;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 /*变量*/
 html{
@@ -193,6 +194,7 @@ html{
                                         margin-bottom: 0.15rem;
                                     }
                                     .dialog {
+                                        position:absolute;
                                         background-color: white;
                                         border-radius: 1rem;
                                         color: #000;
@@ -222,6 +224,15 @@ html{
                                         }
                                     
                                 }
+                                .dia-tgle{
+                                    position: absolute;
+                                    right: 10.15rem;
+                                    z-index: 13;
+                                }
+                                .bgimg{
+                                    position: absolute;
+                                    right: 0;
+                                }
                             }
                             
                         }
@@ -230,7 +241,7 @@ html{
                             .col-md-offset-1{
                                 height: auto;
                                 .col-md-6{
-                                    margin-top: -2rem;
+                                    margin-top: 1.2rem;
                                     font-size: 0.6rem;
                                     margin-bottom: 0;
                                     color: #000;
