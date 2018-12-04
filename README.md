@@ -8,3 +8,4 @@ restruct the page use the bootstrap,just for pc
 the question need to be solve
 待解决问题：
 1.对手机、平板端做适配
+2.在谷歌浏览器显示有异常
