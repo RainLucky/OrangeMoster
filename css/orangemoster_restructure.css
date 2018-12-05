@@ -201,6 +201,7 @@ html body footer .container .row .col-md-offset-1 .col-md-2 .dialog {
   height: 7rem;
   margin-top: 0.7rem;
   z-index: 12;
+  transform: scale);
 }
 html body footer .container .row .col-md-offset-1 .col-md-2 .trangle {
   border: 25px solid #fff;
@@ -234,13 +235,15 @@ html body footer .container .row {
 html body footer .container .row .col-md-offset-1 {
   height: auto;
 }
-html body footer .container .row .col-md-offset-1 .col-md-6 {
-  margin-top: 1.2rem;
+html body footer .container .row .col-md-offset-1 .col-md-8 {
   font-size: 0.6rem;
   margin-bottom: 0;
   color: #000;
   padding: 0;
 }
-html body footer .container .row .col-md-offset-1 .col-md-6 p {
+html body footer .container .row .col-md-offset-1 .col-md-8 p {
   margin-bottom: 0.2rem;
+}
+html body footer .container .row .col-md-offset-1 .col-md-8 p:first-child {
+  margin-top: 0.65rem;
 }

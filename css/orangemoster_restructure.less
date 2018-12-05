@@ -172,7 +172,7 @@ html{
 
         }
                 /*尾部*/
-                footer{
+            footer{
                     background-color: #f7941e;
                     height: 9rem;
                     .container{
@@ -192,6 +192,8 @@ html{
                                     }
                                     p{
                                         margin-bottom: 0.15rem;
+                                        // transform: scale(0.5);
+                                        // font-size: 20px;
                                     }
                                     .dialog {
                                         position:absolute;
@@ -228,6 +230,12 @@ html{
                                     position: absolute;
                                     right: 10.15rem;
                                     z-index: 13;
+                                    .dialog{
+                                        p{
+                                            // font-size: 1.2rem;
+                                            // transform: scale(0.8);
+                                        }
+                                    }
                                 }
                                 .bgimg{
                                     position: absolute;
@@ -240,21 +248,34 @@ html{
                             height:0;
                             .col-md-offset-1{
                                 height: auto;
-                                .col-md-6{
-                                    margin-top: 1.2rem;
+                                .col-md-8{
+                                    // margin-top: 1.2rem;
                                     font-size: 0.6rem;
                                     margin-bottom: 0;
                                     color: #000;
                                     padding: 0;
+                                    .mixin(){
+                                        &:first-child{
+                                            margin-top: 0.65rem;
+                                        }
+                                        // &:last-child{
+                                        //     // margin-top: 0.5rem;
+                                        //     // margin-top: -0.45rem;
+                                        //     // margin-bottom: 0;
+                                        // }
+                                    }
                                     p{
                                         margin-bottom: 0.2rem;
+                                        // transform: scale(0.5);
+                                        // font-size: 20px;
+                                        .mixin();
                                     }
                                 }
                             }
                         }
-                    }
-                        
-                    }
+                    }       
+        }
+        
     }
 }
 
