@@ -178,7 +178,7 @@ html{
                     .container{
                         height: 100%;
                         .row{
-                            height: 100%;
+                            // height: 100%;
                             .col-md-offset-1{
                                 height: 100%;
                                 .col-md-2{
@@ -196,16 +196,24 @@ html{
                                         // font-size: 20px;
                                     }
                                     .dialog {
-                                        position:absolute;
+                                        position: absolute;
                                         background-color: white;
                                         border-radius: 1rem;
                                         color: #000;
-                                        font-size: 0.7rem;
-                                        padding: 0.5rem;
+                                        font-size: 0.6rem;
+                                        padding: 0.1rem;
                                         width: 100%;
-                                        height: 7rem;
-                                        margin-top: 0.7rem;      
-                                        z-index: 12;                
+                                        height: 7.5rem;
+                                        margin-top: 0.7rem;
+                                        z-index: 12;
+                                        p.text-primary{
+                                            margin-top: -0.15rem;
+                                            margin-left: 0.5rem;
+                                        }
+                                        .small{
+                                            padding-left: 0.4rem;
+                                        }
+                                     }                
                                     }
                                     .trangle{
                                         border: 25px solid #fff;
@@ -230,11 +238,7 @@ html{
                                     position: absolute;
                                     right: 10.15rem;
                                     z-index: 13;
-                                    .dialog{
-                                        p{
-                                            // font-size: 1.2rem;
-                                            // transform: scale(0.8);
-                                        }
+                                   
                                     }
                                 }
                                 .bgimg{
@@ -245,7 +249,7 @@ html{
                             
                         }
                         .row{
-                            height:0;
+                            // height:0;
                             .col-md-offset-1{
                                 height: auto;
                                 .col-md-8{
@@ -273,11 +277,15 @@ html{
                                 }
                             }
                         }
-                    }       
-        }
-        
-    }
-}
+                    }  
+                    p {
+                        line-height: 1rem;
+                        padding: 0;
+                        margin: 0.3rem;
+                        font-size: 0.75rem;
+                    }     
+        }        
+// }
 
 
 
