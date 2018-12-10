@@ -1,4 +1,3 @@
-# OrangeMoster:https://rainlucky.github.io/OrangeMoster/OrangeMoster.html
 # orangemoster_restructure:https://rainlucky.github.io/OrangeMoster/orangemoster_restructure.html
 a static webpage
 
