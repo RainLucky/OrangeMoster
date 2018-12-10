@@ -9,3 +9,7 @@ the question need to be solve
 待解决问题：
 1.对手机、平板端做适配
 2.在谷歌浏览器显示有异常
+
+solve the quetion of
+已解决的问题：
+1.谷歌浏览器字体显示问题
